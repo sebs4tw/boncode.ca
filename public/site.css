@@ -2,18 +2,27 @@ body {
     text-align: center;
 }
 
+h1.offseted-title {
+    margin: 1rem auto;
+}
+
 .centered-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-h1.offseted-title {
-    margin: 1em auto;
+.centered-container > a {
+    margin: 1rem 0;
 }
 
-a.email-link {
-    margin:3rem 0;
+a.social-link img {
+    max-height: 4rem;
+}
+
+a.button-link {
     background-color: rgba(0,0,0,0);
     border: 0;
     border-radius: 2px;

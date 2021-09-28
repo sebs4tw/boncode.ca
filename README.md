@@ -1,2 +1,2 @@
 # boncode.ca
-boncode.ca
+Site statique boncode.ca
